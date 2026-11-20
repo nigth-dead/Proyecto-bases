@@ -1,0 +1,18 @@
+# Secretos locales
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+# Respaldos, datos SQL y entregas voluminosas: publicar enlaces
+*.bak
+*.trn
+*.mdf
+*.ndf
+*.ldf
+*.zip
+# Archivos de trabajo
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
